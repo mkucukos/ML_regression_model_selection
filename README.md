@@ -1,13 +1,9 @@
-# ML_Polynomial-Regression_model
+# ML_regression_model_selection
 
-This script displays the results of a Polynomial Regression_model applied to data that includes position level and salary information.
-I trained the model on the entire dataset because we only have a little amount of data. On the same data set, the performance of the linear and polynomial regression models were evaluated, and the polynomial regression model was shown to be more robust. Finally, I plotted the regression model  in higher resolution.
+This script shows the results of various regression models that were used to predict energy output using variables such as engine temperature, exhaust vacuum, pressure, and relative humidity. The data was divided into two sets: training and testing, with feature scaling (SVR) applied to both sets. The best model for estimating energy output was found to be Random Forest Regression. 
 
 ## Install Requirements
 
 ```bash
 $ pip install -r requirement.txt
 ```
-![model's output](./Linear_Regression.png)
-![model's output](./Polynomial_Regression.png)
-![model's output](./Polynomial_Regression_S.png)
